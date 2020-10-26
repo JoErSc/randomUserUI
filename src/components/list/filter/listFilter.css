@@ -1,0 +1,54 @@
+.listFilterIcon {
+  background: rgb(66,84,198);
+  background: radial-gradient(circle, rgba(66,84,198,1) 0%, rgba(24,52,143,1) 22%, rgba(14,14,74,1) 71%, rgba(255,215,227,1) 74%, rgba(36,38,80,1) 78%, rgba(0,0,0,1) 100%);
+  border-radius: 18px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  height: 36px;
+  line-height: 36px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 10px;
+  text-align: center;
+  top: 10px;
+  width: 36px;
+  z-index: 10;
+}
+.listFilterIcon:hover {
+  border: solid 1px #0e0e4a;
+  right: 9px;
+  top: 9px;
+}
+
+.ListFilterPanel{
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px #333;
+  color: #333;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: normal;
+  height: 70px;
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  top: 0px;
+  width: 200px;
+  z-index: 2;
+}
+
+.ListFilterPanelCover {
+  background-color: #333;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  opacity: 0.7;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+}
